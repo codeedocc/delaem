@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(243, 192, 243);
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info-text {
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+}
+
+h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+p {
+  color: black;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.bridges a {
+  width: 600px;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+
+  .info-text {
+    text-align: center;
+    display: block;
+  }
+
+  .bridges a {
+    text-align: center;
+    display: block;
+  }
+
+  .container {
+    width: auto;
+  }
+}
